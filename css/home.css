@@ -1,4 +1,4 @@
-ul {
+.topnav ul {
     width:100%;
     top:0;
     left:0;
@@ -11,11 +11,11 @@ ul {
     margin-top: 0;
 }
 
-li {
+.topnav ul li {
     float: left;
 }
 
-li a {
+.topnav ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -24,7 +24,7 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.topnav ul li a:hover {
     background-color: #111;
 }
 .active {
@@ -46,5 +46,38 @@ li a:hover {
     top: 50%; left: 50%;  
     margin-left: -170px; /* (width + padding)/2 */  
     margin-top: -120px; /* (height + padding)/2 */ 
+    color:#61CBD5;
+}
+.items1{
+    width: 645px;
+    height: 505px;
+    background-color: #333;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    margin:225px auto;
+    font-size: 25px;
+    text-align: center;
+    width: 241px;  
+    height: 179px;  
+    padding: 10px;  
+    position: absolute;  
+    top: 35%; left: 24%;  
+    margin-left: -209px; /* (width + padding)/2 */  
+    margin-top: -98px; /* (height + padding)/2 */ 
+    color:#61CBD5;
+}
+.items2{
+   
+    background-color: #333;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    margin:253px auto;
+    font-size: 25px;
+    text-align: center;
+    width: 241px;  
+    height: 179px;  
+    padding: 12px;  
+    position: absolute;  
+    top: 81%; left: 95%;  
+    margin-left: -200px; /* (width + padding)/2 */  
+    margin-top: -20px; /* (height + padding)/2 */ 
     color:#61CBD5;
 }
